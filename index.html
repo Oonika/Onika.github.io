@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form_FB-comments</title>
+</head>
+<body>
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/cs_CZ/sdk.js#xfbml=1&version=v6.0&appId=326849018289259"></script>
+    <form action="https://formspree.io/tshanik.152@gmail.com" method="POST">
+        <div >
+            <div>
+                <input type="text" name="name" id="name" placeholder="Name" />
+            </div>
+            <div>
+                <input type="email" name="email" id="email" placeholder="Email" />
+            </div>
+        </div>
+        <div >
+            <div>
+                <textarea name="message" id="message" placeholder="Message" rows="5"></textarea>
+            </div>
+        </div>
+        <div >
+            <div>
+                <input type="submit" class="button alt" value="Send" />
+            </div>
+        </div>
+    </form>  
+    <div class="fb-comments" data-href="http://oonika.github.io/" data-numposts="1" data-width="100%"></div>
+
+</body>
+</html>
