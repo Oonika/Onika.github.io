@@ -1,4 +1,4 @@
-.column {
+/*.column {
     float: left;
     width: 50%;
   }
@@ -8,7 +8,7 @@
     display: table;
     clear: both;
   }
-/*
+*/
   .row {
     display: flex;
   }
@@ -16,4 +16,4 @@
   .column {
     flex: 50%;
   }
-  */
+  

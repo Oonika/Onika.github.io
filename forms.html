@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <div class="row">
+        <div class="column">
+            <h2>Form with formspree</h2>
+            <form action="https://formspree.io/tshanik.152@gmail.com" method="POST">
+                <div >
+                    <div>
+                        <input type="text" name="name" id="name" placeholder="Name" />
+                    </div>
+                    <div>
+                        <input type="email" name="email" id="email" placeholder="Email" />
+                    </div>
+                </div>
+                <div >
+                    <div>
+                        <textarea name="message" id="message" placeholder="Message" rows="5"></textarea>
+                    </div>
+                </div>
+                <div >
+                    <div>
+                        <input type="submit" class="button alt" value="Send" />
+                    </div>
+                </div>
+            </form> 
+        </div>
+        <div class="column">
+            <h2>Form with mailto action</h2>
+            <form action="mailto:info@psychedelika.cz" method="post" enctype="text/plain" target="_blank">
+                <div >
+                    <div>
+                        <input type="text" name="name" id="name" placeholder="Name" />
+                    </div>
+                    <div>
+                        <input type="email" name="email" id="email" placeholder="Email" />
+                    </div>
+                </div>
+                <div >
+                    <div>
+                        <textarea name="message" id="message" placeholder="Message" rows="5"></textarea>
+                    </div>
+                </div>
+                <div >
+                    <div>
+                        <input type="submit" class="button alt" value="Send" />
+                    </div>
+                </div>
+            </form> 
+        </div> 
+        </div>  
+</body>
+</html>
